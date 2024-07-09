@@ -37,7 +37,26 @@ export default function Header() {
             </div>
           </div>
         </div>
-        <div className={style.right_header}></div>
+        <div className={style.right_header}>
+          {/* <div className={style.div_right_header}> */}
+          <img
+            className={style.img_header_right}
+            src="./img/nft/heroanimationtransparentbck-2.gif"
+            alt=""
+          />
+          {/* <div className={style.user_info}>
+              <h1 className={style.name_h1}>
+              Space Walking
+              </h1>
+              <div className={style.cildern_user_info}>
+                <p className={style.p_childeren}><img src="./img/Avatar/avatar1.svg" alt="" /> Animakid</p>
+
+
+              </div> */}
+
+          {/* </div> */}
+          {/* </div> */}
+        </div>
       </div>
     </div>
   );

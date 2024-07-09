@@ -1,6 +1,7 @@
 .Header{
 color: white;
 padding: 0 250px;
+display: flex;
 }
 .left_header{
     width: 50%;
@@ -11,12 +12,13 @@ padding: 0 250px;
 }
 .right_header{
     width: 50%;
+    padding-left: 60px;
     /* background-color: red; */
 
 }
 .h1_header{
     color: white;
-    font-size: 60px;
+    font-size: 50px;
 }
 .btn_header{
     background-color: #A259FF;
@@ -39,4 +41,35 @@ padding: 0 250px;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+}
+.div_right_header{
+    
+    background-color: #3B3B3B;
+width: 100%;
+height: 100%;
+border-radius: 50px;
+animation: rotate 5s linear 2s infinite alternate;
+}
+.img_header_right{
+    width: 100%;
+    
+    /* height: 100%; */
+}
+.user_info{
+    padding: 0px 30px;
+}
+
+.cildern_user_info img{
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.p_childeren{
+    display: flex;
+    align-items: center;
+}
+.div_right_header:hover{
+    background-color: red;
+    transition: all 0.3s;
+    transform: scaleX(0.2);
+
 }
