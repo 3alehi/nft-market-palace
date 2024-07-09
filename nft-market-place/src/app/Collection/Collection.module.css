@@ -1,0 +1,13 @@
+.collection{
+    padding: 0 80px;
+    color: white;
+    margin-top: 10px;
+}
+.p_Box{
+    font-size: 22px;
+}
+.Box_div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

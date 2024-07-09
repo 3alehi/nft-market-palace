@@ -1,0 +1,43 @@
+.box_null{
+    width: 100px;
+    height: 100px;
+    background-color: #A259FF;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.box_collection{
+    margin-top: 10px;
+display: flex;
+justify-content: space-between;
+
+}
+.box_collection img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+
+    
+}
+.Box{
+    width: 350px;
+}
+.poster{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+
+
+}
+.Box_user_info{
+    display: flex;
+    align-items: center;
+}
+.Box_user_info img{
+    margin-right: 10px;
+}
