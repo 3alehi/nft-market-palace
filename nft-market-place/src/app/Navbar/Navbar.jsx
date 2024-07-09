@@ -4,7 +4,7 @@ import style from "./Navbar.module.css";
 
 export default function Navbar() {
   return (
-    <div className="container">
+    <div>
 
     <ul className={style.navbar}>
       <div className={style.mark}>

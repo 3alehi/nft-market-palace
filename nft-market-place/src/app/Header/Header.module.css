@@ -1,0 +1,42 @@
+.Header{
+color: white;
+padding: 0 250px;
+}
+.left_header{
+    width: 50%;
+    /* background-color: red; */
+    font-size: 30px;
+
+
+}
+.right_header{
+    width: 50%;
+    /* background-color: red; */
+
+}
+.h1_header{
+    color: white;
+    font-size: 60px;
+}
+.btn_header{
+    background-color: #A259FF;
+    width: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.info_header_div{
+    display: flex;
+    flex-direction: column;
+}
+.info_header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
