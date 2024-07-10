@@ -5,6 +5,7 @@ import style from "./Navbar.module.css";
 export default function Navbar() {
   return (
     <div>
+    
       <ul className={style.navbar}>
         <div className={style.mark}>
           <h2 className={style.header}>
@@ -15,6 +16,10 @@ export default function Navbar() {
             NFT Marketplace
           </h2>
         </div>
+        <div className={style.humberger_nav}>
+        <img src="img/Icon/Burger Menu.png
+" alt="" />
+      </div>
         <div className={style.list}>
           <li>Marketplace</li>
           <li>Rankings</li>
