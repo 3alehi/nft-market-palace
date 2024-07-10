@@ -16,10 +16,14 @@ export default function Header() {
 
           <button className={style.btn_header}>
             {" "}
-            <p>
+            <p className={style.p_btn}>
+
+            <span>
               <img src="./img/Icon/RocketLaunch (2).png" alt="" />
-            </p>{" "}
+            </span>
             Get Started
+            </p>
+
           </button>
           <div className={style.info_header}>
             <div className={style.info_header_div}>
