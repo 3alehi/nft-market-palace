@@ -68,24 +68,32 @@ animation: rotate 5s linear 2s infinite alternate;
     align-items: center;
 }
 .div_right_header:hover{
-    background-color: red;
+    /* background-color: red; */
     transition: all 0.3s;
     transform: scaleX(0.2);
 
 }
 
+
 @media (max-width: 600px) {
     .Header{
-        padding: 10px;
+        padding: 0  10px;
         flex-wrap: wrap;
 
     }
+ 
     .left_header{
         width: 100%;
     }
     .right_header{
+        margin: 0;
+        padding: 0;
         margin-top: 20px;
-        width: 100%;
+                width: 100%;
+    }
+    .img_header_right{
+    
+
     }
     .br{
         display: none;
