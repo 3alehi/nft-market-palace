@@ -42,6 +42,12 @@ align-items: center;
 }
 
 @media (max-width: 600px) {
+    .nft_de{
+        font-size: 18px;
+    }
+    .icon_nf{
+        width: 20px;
+    }
     .humberger_nav{
         display: block;
         

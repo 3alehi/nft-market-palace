@@ -5,21 +5,23 @@ import style from "./Navbar.module.css";
 export default function Navbar() {
   return (
     <div>
-    
       <ul className={style.navbar}>
         <div className={style.mark}>
           <h2 className={style.header}>
             {" "}
             <p className={style.mark_icon}>
-              <img src="./img/Icon/Storefront.svg" alt="" />
+              <img className={style.icon_nf} src="./img/Icon/Storefront.svg" alt="" />
             </p>{" "}
-            NFT Marketplace
+            <span className={style.nft_de}> NFT Marketplace</span>
           </h2>
         </div>
         <div className={style.humberger_nav}>
-        <img src="img/Icon/Burger Menu.png
-" alt="" />
-      </div>
+          <img
+            src="img/Icon/Burger Menu.png
+"
+            alt=""
+          />
+        </div>
         <div className={style.list}>
           <li>Marketplace</li>
           <li>Rankings</li>
