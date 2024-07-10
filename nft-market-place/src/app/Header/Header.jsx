@@ -6,10 +6,10 @@ export default function Header() {
       <div className={style.Header}>
         <div className={style.left_header}>
           <h1 className={style.h1_header}>
-            Discover <br /> digital art & <br />
+            Discover <br className={style.br}  /> digital art & <br className={style.br} />
             Collect NFTs
           </h1>
-          <p>
+          <p className={style.p_}>
             NFT marketplace UI created with Anima for Figma. Collect, buy and
             sell art from more than 20k NFT artists.
           </p>

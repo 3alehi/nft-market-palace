@@ -56,6 +56,10 @@ align-items: center;
     .mark_icon{
         font-size: 10px;
     }
+        .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
 
   }
   
@@ -74,10 +78,18 @@ align-items: center;
     .mark_icon{
         font-size: 10px;
     }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
 
   }
   
   @media (min-width: 768px) and (max-width: 992px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
     .humberger_nav{
         display: block;
         
