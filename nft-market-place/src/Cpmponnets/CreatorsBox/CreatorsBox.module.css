@@ -36,4 +36,11 @@ border-radius: 100%;
     flex-direction: column;
     align-items: center;
     margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    
+}
+.CreatorsBox:hover{
+    transform: scale(0.9);
 }
