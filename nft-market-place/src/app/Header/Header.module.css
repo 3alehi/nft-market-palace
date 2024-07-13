@@ -116,7 +116,7 @@ animation: rotate 5s linear 2s infinite alternate;
 }
 .btn_header{
     font-size: 15px;
-    width: 150px;
+    width: 100%;
     height: 50px;
 }
 
