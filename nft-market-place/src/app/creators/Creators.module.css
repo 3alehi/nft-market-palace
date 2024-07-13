@@ -1,0 +1,36 @@
+.top_creator{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.left_creator{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.btn_creator{
+    width: 150px;
+    height: 45px;
+    background-color: #A259FF;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.img_creator{
+    margin-right: 10px;
+}
+.creator_box{
+    margin-top: 60px;
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

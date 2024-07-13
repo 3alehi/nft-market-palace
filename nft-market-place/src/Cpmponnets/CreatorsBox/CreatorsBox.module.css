@@ -1,0 +1,39 @@
+.img_creator_box{
+width: 150px;
+height: 150px;
+border-radius: 100%;
+/* padding: 20px; */
+}
+.Rank{
+    position: absolute;
+    background-color: #2B2B2B;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: center;
+    top: 21px;
+    left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.name_nft{
+
+}
+.sales{
+
+}
+.CreatorsBox{
+    position: relative;
+    color: white;
+    background-color: #3B3B3B;
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}

@@ -4,15 +4,33 @@ import CreatorsBox from "@/Cpmponnets/CreatorsBox/CreatorsBox";
 export default function Creators() {
   return (
     <div>
-      <div>
+      <div className={style.top_creator}>
+        <div className={style.left_creator}>
         <h1>Top creators</h1>
         <p>Checkout Top Rated Creators on the NFT Marketplace</p>
+        </div>
         <div>
-          <button>View Rankings img</button>
+          <button className={style.btn_creator}> <img className={style.img_creator} src="./img/Icon/RocketLaunch (2).png" alt="" />View Rankings</button>
         </div>
       </div>
-
+      <div className={style.creator_box}>
       <CreatorsBox />
+      <CreatorsBox />
+      <CreatorsBox />
+      <CreatorsBox />
+      <CreatorsBox />
+      <CreatorsBox />
+      <CreatorsBox />
+      <CreatorsBox />
+      <CreatorsBox />
+      <CreatorsBox />
+      <CreatorsBox />
+      <CreatorsBox />
+ 
+
+
+      </div>
+
     </div>
   );
 }
