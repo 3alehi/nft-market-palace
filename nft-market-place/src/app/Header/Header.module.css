@@ -11,8 +11,11 @@ display: flex;
 
 }
 .right_header{
-    width: 50%;
-    padding-left: 60px;
+    width: 80%;
+    /* padding-left: 60px; */
+    padding: 0;
+    display: flex;
+    justify-content: center;
     /* background-color: red; */
 
 }
