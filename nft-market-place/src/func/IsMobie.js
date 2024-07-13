@@ -1,3 +1,3 @@
-export default  isViewportUnder900px = () => {
+export default  function IsMobile (){
     return window.innerWidth < 900;
   };

@@ -1,8 +1,11 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import style from "./Collection.module.css";
 import Box from "@/Cpmponnets/Box/Box";
+import IsMobie from "@/func/IsMobie";
+import IsMobile from "@/func/IsMobie";
 export default function Collection() {
+  
   const Collection = [
     {
       id: 1,
@@ -31,7 +34,7 @@ export default function Collection() {
       id: 3,
       Des: "Disco Machines",
       creator: "BeKind2Robots",
-      poster: "img/Poster/Avatar Placeholder (15).png",
+      poster: "img/Poster/Primary Photo Placeholder (3).png",
       imgColection: [
         "img/Poster/Secondary Photo Placeholder (5).png",
         "img/Poster/Primary Photo Placeholder (3).png",
@@ -40,6 +43,7 @@ export default function Collection() {
 
     },
   ];
+  const [collectionmobile , setcoll] = useState([Collection[0]]) 
 
   return (
     <div className="container">
@@ -52,7 +56,17 @@ export default function Collection() {
           </p>
         </div>
         <div className={style.Box_div}>
-          {Collection.map((data) => (
+          { !IsMobile() && Collection.map((data) => (
+            <Box
+              poster={data.poster}
+              imgColection1={data.imgColection[0]}
+              imgColection2={data.imgColection[1]}
+              creator={data.creator}
+              desc={data.Des}
+              avatar={data.Avatar}
+            />
+          ))}
+              { IsMobile() && collectionmobile.map((data) => (
             <Box
               poster={data.poster}
               imgColection1={data.imgColection[0]}
