@@ -47,6 +47,9 @@ transition: all 0.3s;
 
 
 }
+.avatar{
+    border-radius: 100px;
+}
 .poster:hover{
     transform: scale(0.9);
 
