@@ -22,6 +22,13 @@ border-top-left-radius: 20px;
     background-color: #3c3c3c;
     border-radius: 20px;
     margin: 30px;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+.MoreNftBox:hover{
+    transform: scale(0.9);
+
 }
 .price_Top{
 display: flex;
