@@ -1,0 +1,10 @@
+.work{
+    margin-top: 50px;
+    color: white;
+}
+.work_box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}

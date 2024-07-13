@@ -5,15 +5,19 @@ import Collection from './Collection/Collection';
 import Creators from './creators/Creators';
 import Category from './Category/Category';
 import MoreNft from './MoreNft/MoreNft';
+import Bg from '@/Cpmponnets/BG/Bg';
+import Work from './Work/work';
 
 export default function page() {
   return (
-    <div className='container'>
+    <div >
       <Header/>
       <Collection/>
       <Creators/>
       <Category/>
       <MoreNft/>
+      <Bg/>
+      <Work/>
 
 
 
