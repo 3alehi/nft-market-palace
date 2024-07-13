@@ -11,7 +11,7 @@ import Join from './Join/Join';
 
 export default function page() {
   return (
-    <div >
+    <div   >
       <Header/>
       <Collection/>
       <Creators/>
