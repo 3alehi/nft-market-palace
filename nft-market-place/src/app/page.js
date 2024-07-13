@@ -3,6 +3,7 @@ import './reset.css';
 import Header from './Header/Header';
 import Collection from './Collection/Collection';
 import Creators from './creators/Creators';
+import Category from './Category/Category';
 
 export default function page() {
   return (
@@ -10,6 +11,7 @@ export default function page() {
       <Header/>
       <Collection/>
       <Creators/>
+      <Category/>
 
 
 

@@ -1,0 +1,9 @@
+.Category{
+    color: #ffffff;
+    margin-top: 40px;
+}
+.Box_category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
