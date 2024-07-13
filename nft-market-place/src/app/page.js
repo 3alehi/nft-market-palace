@@ -7,6 +7,7 @@ import Category from './Category/Category';
 import MoreNft from './MoreNft/MoreNft';
 import Bg from '@/Cpmponnets/BG/Bg';
 import Work from './Work/work';
+import Join from './Join/Join';
 
 export default function page() {
   return (
@@ -18,6 +19,7 @@ export default function page() {
       <MoreNft/>
       <Bg/>
       <Work/>
+      <Join/>
 
 
 

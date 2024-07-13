@@ -1,0 +1,65 @@
+.join{
+    margin-top: 60px;
+    color: white;
+    background: #3B3B3B;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 60%;
+    height: 390px;
+    align-items: center;
+    margin-bottom: 80px;
+    border-radius: 20px;
+
+}
+.Join_dad{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    border-radius: 20px;
+    margin: 30px;
+    width: 70%;
+}
+.right_join{
+    width: 50%;
+
+}
+.left_join{
+    width: 50%;
+    
+}
+.footer input {
+   height: 50px;
+   border: none;
+   text-align: center;
+   border-radius: 20px;
+   outline: none;
+
+   height: 100%;
+
+}
+.footer{
+    background: #fff;
+    border-radius: 20px;
+    padding: 0;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    overflow: hidden;
+
+}
+.right_join_body{
+    width: 270px;
+}
+.footer button {
+    height: 100%;
+    border: none;
+    background: #A259FF;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+    width: 120px;
+    color: white;
+ }
