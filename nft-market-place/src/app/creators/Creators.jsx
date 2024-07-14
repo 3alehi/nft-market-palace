@@ -9,7 +9,7 @@ export default function Creators() {
         <h1>Top creators</h1>
         <p>Checkout Top Rated Creators on the NFT Marketplace</p>
         </div>
-        <div>
+        <div className={style.btn_div}>
           <button className={style.btn_creator}> <img className={style.img_creator} src="./img/Icon/RocketLaunch (2).png" alt="" />View Rankings</button>
         </div>
       </div>
