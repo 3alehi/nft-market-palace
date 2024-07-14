@@ -10,6 +10,7 @@ export default function Creators() {
         <p>Checkout Top Rated Creators on the NFT Marketplace</p>
         </div>
         <div className={style.btn_div}>
+
           <button className={style.btn_creator}> <img className={style.img_creator} src="./img/Icon/RocketLaunch (2).png" alt="" />View Rankings</button>
         </div>
       </div>
@@ -17,15 +18,11 @@ export default function Creators() {
       <CreatorsBox />
       <CreatorsBox />
       <CreatorsBox />
-      <CreatorsBox />
-      <CreatorsBox />
-      <CreatorsBox />
-      <CreatorsBox />
-      <CreatorsBox />
-      <CreatorsBox />
-      <CreatorsBox />
-      <CreatorsBox />
-      <CreatorsBox />
+
+      <div className={style.btn_div}>
+      <button className={style.btn_creator_mobile}> <img className={style.img_creator} src="./img/Icon/RocketLaunch (2).png" alt="" />View Rankings</button>
+
+      </div>
  
 
 
