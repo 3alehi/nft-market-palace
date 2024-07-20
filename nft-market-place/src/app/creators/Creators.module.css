@@ -32,7 +32,7 @@
     display:flex;
     width: 100%;
     flex-wrap: wrap;
-    /* justify-content: space-evenly; */
+    justify-content: center;
 }
 .btn_creator_mobile{
     display: none;

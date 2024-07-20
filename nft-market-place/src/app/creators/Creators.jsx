@@ -2,6 +2,7 @@
 import React from "react";
 import style from "./Creators.module.css";
 import CreatorsBox from "@/Cpmponnets/CreatorsBox/CreatorsBox";
+import IsMobile from "@/func/IsMobie";
 export default function Creators() {
   const Creator = [
     {
@@ -77,6 +78,8 @@ export default function Creators() {
       Sale: "7.02",
     },
   ];
+  const creatormobile = Creator.slice(8, 12);
+  console.log(creatormobile);
   return (
     <div>
       <div className={style.top_creator}>
@@ -96,23 +99,43 @@ export default function Creators() {
           </button>
         </div>
       </div>
-      <div className={style.creator_box}>
-        {Creator.map((data) => (
-          <CreatorsBox sale={data.Sale} name={data.Name} avatar={data.Avatart}  id={data.Id}/>
-        ))}
-
-        <div className={style.btn_div}>
-          <button className={style.btn_creator_mobile}>
-            {" "}
-            <img
-              className={style.img_creator}
-              src="./img/Icon/RocketLaunch (2).png"
-              alt=""
+      {!IsMobile() && (
+        <div className={style.creator_box}>
+          {Creator.map((data) => (
+            <CreatorsBox
+              sale={data.Sale}
+              name={data.Name}
+              avatar={data.Avatart}
+              id={data.Id}
             />
-            View Rankings
-          </button>
+          ))}
+
+          <div className={style.btn_div}>
+            <button className={style.btn_creator_mobile}>
+              {" "}
+              <img
+                className={style.img_creator}
+                src="./img/Icon/RocketLaunch (2).png"
+                alt=""
+              />
+              View Rankings
+            </button>
+          </div>
         </div>
-      </div>
+      )}
+      {IsMobile() &&
+        creatormobile.map((data) => (
+          <div>
+            <div className={style.left}>
+              <img src={data.Avatart} alt="" />
+            </div>
+            <div className={style.right}>
+              <h3>{data.Name}</h3>
+              
+              <p>{data.Sale}</p>
+            </div>
+          </div>
+        ))}
     </div>
   );
 }

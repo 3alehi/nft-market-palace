@@ -70,6 +70,8 @@
 }
 .left_join{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .right_join{
     width: 100%;
@@ -77,6 +79,10 @@
 .footer{
     display:none ;
 }
+.img{
+    width: 100%;
+}
+
 
    }
    
