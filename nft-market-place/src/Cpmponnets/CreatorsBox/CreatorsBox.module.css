@@ -47,3 +47,24 @@ border-radius: 100%;
 .CreatorsBox:hover{
     transform: scale(0.9);
 }
+
+
+
+@media  (max-width: 500px) {
+
+    .CreatorsBox{
+        flex-direction: row;
+        width: 80%;
+        height: 110px;
+    }
+    .img_creator_box{
+        width: 90px;
+        height: 90px;
+    }
+    .left{
+        margin-left:30px ;
+    }
+ 
+   }
+   
+  

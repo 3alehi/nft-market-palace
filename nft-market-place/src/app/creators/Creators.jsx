@@ -123,19 +123,18 @@ export default function Creators() {
           </div>
         </div>
       )}
-      {IsMobile() &&
-        creatormobile.map((data) => (
-          <div>
-            <div className={style.left}>
-              <img src={data.Avatart} alt="" />
-            </div>
-            <div className={style.right}>
-              <h3>{data.Name}</h3>
-              
-              <p>{data.Sale}</p>
-            </div>
-          </div>
-        ))}
+      {IsMobile() && (
+        <div>
+          {creatormobile.map((data) => (
+            <CreatorsBox
+              sale={data.Sale}
+              name={data.Name}
+              avatar={data.Avatart}
+              id={data.Id}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }
