@@ -40,22 +40,14 @@ width: 100%;
     transform: translateX(-50%)  translateY(-50%);
     
 }
-@media (min-width: 600px) and (max-width: 768px) {
 .CategoryBox{
+
+}
+@media (max-width: 500px) {
+.CategoryBox{
+
 }
 
  
    }
-   
-   @media (min-width: 768px) and (max-width: 992px) {
   
- 
-   }
-   
-   @media (min-width: 992px) and (max-width: 1200px) {
-  
-   }
-   
-   @media (min-width: 1200px) {
-  
-   }
