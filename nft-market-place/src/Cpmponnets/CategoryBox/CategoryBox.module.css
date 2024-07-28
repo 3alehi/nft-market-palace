@@ -45,9 +45,14 @@ width: 100%;
 }
 @media (max-width: 500px) {
 .CategoryBox{
+    width: 150px;
+    height: 220px;
+    margin: 10px;
 
 }
-
+.category{
+    font-size: 25px;
+}
  
    }
   

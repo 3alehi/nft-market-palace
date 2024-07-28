@@ -15,7 +15,7 @@ export default function CategoryBox({ Category, src, icon }) {
           alt=""
         />
       </div>
-      <h1>{Category}</h1>
+      <h1 className={style.category}>{Category}</h1>
     </div>
   );
 }
