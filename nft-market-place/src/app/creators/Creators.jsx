@@ -81,6 +81,7 @@ export default function Creators() {
   const creatormobile = Creator.slice(8, 12);
   console.log(creatormobile);
   return (
+    <>
     <div>
       <div className={style.top_creator}>
         <div className={style.left_creator}>
@@ -110,17 +111,7 @@ export default function Creators() {
             />
           ))}
 
-          <div className={style.btn_div}>
-            <button className={style.btn_creator_mobile}>
-              {" "}
-              <img
-                className={style.img_creator}
-                src="./img/Icon/RocketLaunch (2).png"
-                alt=""
-              />
-              View Rankings
-            </button>
-          </div>
+        
         </div>
       )}
       {IsMobile() && (
@@ -134,7 +125,22 @@ export default function Creators() {
             />
           ))}
         </div>
+        
       )}
+      
+      
     </div>
+    <div className={style.btn_div_mobile}>
+            <button className={style.btn_creator_mobile}>
+              {" "}
+              <img
+                className={style.img_creator}
+                src="./img/Icon/RocketLaunch (2).png"
+                alt=""
+              />
+              View Rankings
+            </button>
+          </div>
+    </>
   );
 }
