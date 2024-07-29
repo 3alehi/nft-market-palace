@@ -23,3 +23,23 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+@media  (max-width: 500px) {
+.top{
+    display: block;
+}
+.btn{
+    display: none;
+}
+.btn_{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.btn_ button{
+    width: 90%;
+}
+
+ 
+   }
+   

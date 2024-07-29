@@ -68,30 +68,18 @@
     
        }
        
-       @media (min-width: 600px) and (max-width: 768px) {
-        .Mobile{
-
-
-        }
-        .left{
-
-        }
-        .right{
-
-        }
-
+       @media  (max-width: 500px) {
+     .btn_creator_{
+        display: flex;
+        justify-self: center;
+     }
+     .btn_div_mobile{
+        display: flex;
+        justify-content: center;
+     }
+  
+  
      
        }
        
-       @media (min-width: 768px) and (max-width: 992px) {
-      
-     
-       }
-       
-       @media (min-width: 992px) and (max-width: 1200px) {
-      
-       }
-       
-       @media (min-width: 1200px) {
-      
-       }
+  
