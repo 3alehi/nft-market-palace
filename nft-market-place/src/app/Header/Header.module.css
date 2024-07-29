@@ -36,6 +36,8 @@ padding: 160px;
     cursor: pointer;
     color: white;
     font-size: 20px;
+    text-decoration: none;
+
 }
 .info_header_div{
     display: flex;

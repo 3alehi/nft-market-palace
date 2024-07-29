@@ -1,6 +1,7 @@
 import React from "react";
 
 import style from "./Navbar.module.css";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -28,7 +29,7 @@ export default function Navbar() {
           <li>Connect a Wallets</li>
           <li>
             {" "}
-            <button className={style.btn_navbar}>
+            <Link href={"/login"} className={style.btn_navbar}>
               {" "}
               <p>
                 {" "}
@@ -39,7 +40,7 @@ export default function Navbar() {
                 />
               </p>{" "}
               Sighn up
-            </button>{" "}
+            </Link >{" "}
           </li>
         </div>
       </ul>

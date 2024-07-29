@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./Header.module.css";
+import Link from "next/link";
 export default function Header() {
   return (
     <div >
@@ -14,7 +15,7 @@ export default function Header() {
             sell art from more than 20k NFT artists.
           </p>
 
-          <button className={style.btn_header}>
+          <Link href={"/login"} className={style.btn_header}>
             {" "}
             <p className={style.p_btn}>
 
@@ -24,7 +25,7 @@ export default function Header() {
             Get Started
             </p>
 
-          </button>
+          </Link>
           <div className={style.info_header}>
             <div className={style.info_header_div}>
               <span>240k+ </span>
