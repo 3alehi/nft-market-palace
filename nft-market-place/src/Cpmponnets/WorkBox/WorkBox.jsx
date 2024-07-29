@@ -1,14 +1,11 @@
 import React from "react";
 import style from "./WorkBox.module.css";
-export default function WorkBox() {
+export default function WorkBox({ icon, desc, top1 }) {
   return (
     <div className={style.WorkBox}>
-      <img src="./img/Icon/Icon.png" alt="" />
-      <h3>Setup Your wallet</h3>
-      <p className={style.p}>
-        Set up your wallet of choice. Connect it to the Animarket by clicking
-        the wallet icon in the top right corner.
-      </p>
+        <img src={icon} alt="" />
+        <h3>{top1}</h3>
+        <p className={style.p}>{desc}</p>
     </div>
   );
 }
