@@ -8,3 +8,16 @@ body{
 .container{
     padding: 0px 10px;
 }
+.link{
+    text-decoration: none;
+  ;
+}
+.btn_link{
+    color: white;
+    border: 1px solid white;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: transparent;
+}
