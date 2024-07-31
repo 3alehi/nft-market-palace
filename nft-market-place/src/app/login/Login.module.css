@@ -34,3 +34,14 @@ height: 650px;
     width:290px;
     line-height: 30px;
 }
+@media (max-width: 500px){
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .login{
+        flex-direction: column;
+    }
+}
